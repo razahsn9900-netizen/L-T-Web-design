@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+
+}
+
+.container{
+    border: 2px solid red;
+    height: 90vh;
+    width : 40%;
+}
+
+p {
+    color: red;
+    background-color: yellow;
+    font-weight: 700;
+}
+
+.sticky{
+    position: sticky;
+    top: 20px;
+}
+
+.relative{
+    position: absolute;
+}
+
+.absolute{
+    position: absolute;
+    right: 10px;
+    bottom: 140px;
+}
+
+.fixed{
+    position:fixed;
+    bottom: 200px;
+    right: 60px;
+}
+
+.classic{
+    position: inherit ;
+    left: 15px;
+    top: 100px;
+
+
+}

@@ -1,0 +1,58 @@
+/* 
+selector{
+property:value
+} 
+*/
+/* 1. Universal Selector (*) */
+
+* {
+  border: 1px solid black;
+}
+
+/* Tag Selector */
+/* to apply some css on multiple
+same tag */
+h1 {
+  color: red;
+}
+
+/* class selector  .anyclassname*/
+/* to apply css on different 
+multiple tags and we have to use attribute
+class and assign same name to them and we
+can write multiple classes */
+.a {
+  color: blue;
+  font-size: 32px;
+}
+.b {
+  background-color: green;
+}
+
+/* Id Selector #anyidname */
+/* for uniqueness and should apply
+on a single element without using
+inline css */
+#c {
+  font-weight: 700;
+  color: palevioletred;
+}
+
+/* Group Selector , */
+/* just to give some css to multiple
+different tags in this we can use 
+id,tag,class selector */
+h2,
+h3,
+.b,
+#c {
+  color: red;
+}
+
+/* Descendant selector */
+#f p {
+  color: yellow;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: red;
+}
